@@ -1,7 +1,7 @@
 {
     "name": "tsc-watch",
     "version": "1.0.0",
-    "main": "indxex.js",
+    "main": "index.js",
     "license": "MIT",
     "dependencies": {
         "@types/compression": "0.0.36",
