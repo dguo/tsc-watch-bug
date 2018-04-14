@@ -1,0 +1,8 @@
+{
+    "compilerOptions": {
+        "outDir": "dist",
+        "pretty": true,
+        "preserveWatchOutput": true
+    },
+    "include": ["src/foo.ts"]
+}
