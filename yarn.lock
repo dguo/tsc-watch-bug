@@ -33,41 +33,6 @@
   version "0.0.33"
   resolved "https://registry.yarnpkg.com/@types/config/-/config-0.0.33.tgz#2b256fe9744e9a3f913f551a9aa4660c41f28c4b"
 
-"@types/connect-redis@0.0.7":
-  version "0.0.7"
-  resolved "https://registry.yarnpkg.com/@types/connect-redis/-/connect-redis-0.0.7.tgz#97948bc727d29e5413d1ebc6be7aa26df86bca7e"
-  dependencies:
-    "@types/express" "*"
-    "@types/express-session" "*"
-    "@types/redis" "*"
-
-"@types/connect-timeout@0.0.33":
-  version "0.0.33"
-  resolved "https://registry.yarnpkg.com/@types/connect-timeout/-/connect-timeout-0.0.33.tgz#89da7e2d3eb4fad64535303c3dfba1fd427e7943"
-  dependencies:
-    "@types/express" "*"
-
-"@types/cookie-parser@1.4.1":
-  version "1.4.1"
-  resolved "https://registry.yarnpkg.com/@types/cookie-parser/-/cookie-parser-1.4.1.tgz#e88a39c41960f31549b4c52dd8620aa4a2feb4bb"
-  dependencies:
-    "@types/express" "*"
-
-"@types/cookie-signature@1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@types/cookie-signature/-/cookie-signature-1.0.1.tgz#10d02ca19c3f7dff7b0471d52f48e3db68029e0e"
-
-"@types/csurf@1.9.34":
-  version "1.9.34"
-  resolved "https://registry.yarnpkg.com/@types/csurf/-/csurf-1.9.34.tgz#e5d50dc8d1c10b1f0dc1a0e255742d5217fbaf44"
-  dependencies:
-    "@types/express" "*"
-    "@types/express-serve-static-core" "*"
-
-"@types/email-templates@2.6.0":
-  version "2.6.0"
-  resolved "https://registry.yarnpkg.com/@types/email-templates/-/email-templates-2.6.0.tgz#5f02dfaf29c7eeb7b47e114c5aafc3ec14b8f3a8"
-
 "@types/events@*":
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/@types/events/-/events-1.2.0.tgz#81a6731ce4df43619e5c8c945383b3e62a89ea86"
@@ -79,7 +44,7 @@
     "@types/events" "*"
     "@types/node" "*"
 
-"@types/express-session@*", "@types/express-session@1.15.8":
+"@types/express-session@1.15.8":
   version "1.15.8"
   resolved "https://registry.yarnpkg.com/@types/express-session/-/express-session-1.15.8.tgz#b187732e8fa88ad9fd5d93c021696460a0694b7c"
   dependencies:
@@ -238,13 +203,6 @@
   resolved "https://registry.yarnpkg.com/@types/react/-/react-16.3.10.tgz#2f25eef83f7c7f6c51cea4c02660f727c75d3b33"
   dependencies:
     csstype "^2.2.0"
-
-"@types/redis@*":
-  version "2.8.6"
-  resolved "https://registry.yarnpkg.com/@types/redis/-/redis-2.8.6.tgz#3674d07a13ad76bccda4c37dc3909e4e95757e7e"
-  dependencies:
-    "@types/events" "*"
-    "@types/node" "*"
 
 "@types/redux-logger@3.0.5":
   version "3.0.5"
