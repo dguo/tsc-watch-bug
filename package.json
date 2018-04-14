@@ -31,7 +31,6 @@
         "@types/winston": "2.3.6",
         "algoliasearch": "3.24.3",
         "aws-sdk": "2.133.0",
-        "bluebird": "2.10.2",
         "format-stripe-metadata": "0.1.0",
         "ioredis": "3.1.1",
         "pug": "2.0.3",
