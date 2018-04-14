@@ -35,8 +35,6 @@
         "bcryptjs": "2.4.3",
         "bluebird": "2.10.2",
         "body-parser": "1.16.0",
-        "change-case": "3.0.1",
-        "check-types": "7.1.5",
         "cli": "1.0.1",
         "compression": "1.7.2",
         "express": "4.16.3",
