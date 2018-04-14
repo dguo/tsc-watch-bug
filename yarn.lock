@@ -2,14 +2,6 @@
 # yarn lockfile v1
 
 
-"@types/accounting@0.4.1":
-  version "0.4.1"
-  resolved "https://registry.yarnpkg.com/@types/accounting/-/accounting-0.4.1.tgz#865d9f5694fd7c438fba34eb4bc82eec6f34cdd5"
-
-"@types/algoliasearch@3.18.2":
-  version "3.18.2"
-  resolved "https://registry.yarnpkg.com/@types/algoliasearch/-/algoliasearch-3.18.2.tgz#8c1b45ffb55f2bad2bdd2869804a284a2590b112"
-
 "@types/babel-types@*", "@types/babel-types@^7.0.0":
   version "7.0.1"
   resolved "https://registry.yarnpkg.com/@types/babel-types/-/babel-types-7.0.1.tgz#1405e5396968c4302994b0161ce405b72b874257"
@@ -19,10 +11,6 @@
   resolved "https://registry.yarnpkg.com/@types/babylon/-/babylon-6.16.2.tgz#062ce63b693d9af1c246f5aedf928bc9c30589c8"
   dependencies:
     "@types/babel-types" "*"
-
-"@types/bcryptjs@2.4.1":
-  version "2.4.1"
-  resolved "https://registry.yarnpkg.com/@types/bcryptjs/-/bcryptjs-2.4.1.tgz#7fb63922b5b106edacdcfe084cd38850f78aacfc"
 
 "@types/bluebird@2.0.33":
   version "2.0.33"
