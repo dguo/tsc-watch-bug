@@ -4,6 +4,9 @@ TypeScript compiler's watch mode. For some reason, this particular set of
 dependencies in `package.json` causes `tsc` to watch files that aren't targeted
 for compilation.
 
+I submitted an [issue](https://github.com/Microsoft/TypeScript/issues/23414)
+that references this repo.
+
 ## Reproduction steps
 1. I used Node v8.6.0, Yarn v1.5.1, and TypeScript v2.8.1.
 2. Clone this repo, and run `yarn install`.
