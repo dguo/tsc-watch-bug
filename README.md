@@ -7,6 +7,13 @@ for compilation.
 I submitted an [issue](https://github.com/Microsoft/TypeScript/issues/23414)
 that references this repo.
 
+2018-04-28 update: One of the TypeScript developers looked into it and
+[replied](https://github.com/Microsoft/TypeScript/issues/23414#issuecomment-385126637)
+with an explanation of the behavior. The root directory is watched in case new
+files are added, and there is a cap of 250 files for TypeScript to check if
+files actually affect module resolution. So removing a dependency in this repo
+fixes the issue because it reduces the number of files to below that limit.
+
 ## Reproduction steps
 1. I used Node v8.6.0, Yarn v1.5.1, and TypeScript v2.8.1.
 2. Clone this repo, and run `yarn install`.
